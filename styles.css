@@ -1,0 +1,216 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#265828;
+    font-size: 12px;
+}
+.container{
+    width: 700px;
+    height: 550px;
+    padding: 20px 35px 35px 35px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 30px;
+    background-color: #ecf0f3;
+    position: absolute;
+    
+}
+label{
+    justify-content: center;
+}
+.s{
+    justify-content: center;
+    text-align: center;
+    padding-left: 50%;
+    font-size: 25px;
+    padding-bottom:10px;
+}
+.fname-align{
+    position: absolute;
+    justify-content:flex-end;
+    margin-left: 45%;
+    width: 22%;
+    box-shadow: 0px 4px 20px rgba(60, 119, 51, 0.6);
+    border-radius: 10px;
+    border-style: none;
+    
+    padding: 8px 8px 4px 4px;
+    outline: none;
+    margin-top: 10px;
+    
+    
+}
+.design{
+    box-shadow: 0px 4px 20px rgba(60, 119, 51, 0.6);
+    border-radius: 10px;
+    border-style: none;
+    padding: 8px 8px 4px 4px;
+    outline: none;
+}
+.design-input{
+    padding-top: 9px;
+    padding-bottom: 10px;
+    font-size: 16px;
+
+}
+
+.lname-align{
+    position: absolute;
+    margin-left: 68%;
+    width: 22%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+
+}
+.bname-align{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 45%;
+    width: 45%;
+
+}
+.address-align{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 45%;
+    width: 45%;
+}
+.email-align{
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 45%;
+    width: 45%;
+}
+.cnum-align{
+    position: absolute;
+    justify-content:flex-end;
+    margin-left: 45%;
+    width: 22%;
+    box-shadow: 0px 4px 20px rgba(60, 119, 51, 0.6);
+    border-radius: 10px;
+    border-style: none;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 9px;
+    font-size: 16px;
+    outline: none;
+    margin-top: 210px;
+    
+}
+.uname-align{
+    position: absolute;
+    margin-left: 68%;
+    width: 22%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 210px;
+
+}
+.wfpnum-align{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 45%;
+    width: 45%;
+}
+.wcpnum-align{
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 45%;
+    width: 45%;
+}
+.c{
+    position: absolute;
+    margin-top: 22.2rem;
+    margin-left: 45%;
+    
+}
+.e{
+    color: #4CAF50;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button{
+    position: absolute;
+    background-color: #265828;
+    color: #fff;
+    padding: 6px 15px 6px 15px;
+    border-radius: 5px;
+    margin-left: 62%;
+    margin-top: 25rem;
+    box-shadow: 1px 1px 6px #4CAF50, -1px -1px 6px #4CAF50;
+    outline: none;
+    border:none;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #60c463;
+}
+
+.acclink{
+    position: absolute;
+    margin-left: 54.5%;
+    margin-top: 28rem;
+}
+.l{
+    text-decoration: none;
+    color: #4CAF50;
+    cursor: pointer;
+}
+img{
+    position: absolute;
+    height: 100%;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+.Username-align{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 45%;
+    width: 45%;
+}
+.Pass-align{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 45%;
+    width: 45%;
+}
+.link-login{
+    position: absolute;
+    margin-top: 11rem;
+    margin-left: 45%;
+}
+.Forgetlink{
+    position: absolute;
+    margin-left: 75%;
+    margin-top: 11.2rem;
+}
+
+.log-btn{
+    position: absolute;
+    margin-top: 17rem;
+}
+.text{
+    position: absolute;
+    margin-left: 58.5%;
+    margin-top: 20rem;
+    color:#000000;
+}
+.createlink{
+    position: absolute;
+    margin-left: 61.5%;
+    margin-top: 22rem;
+}
